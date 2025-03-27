@@ -1,0 +1,3 @@
+[submodule "my_model"]
+	path = my_model
+	url = https://github.com/zlenya123/my_model.git

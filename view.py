@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets
 import datetime
 from my_class import show_error
 from controller import TableManager, FileLoader, ProductController
-from model import Product, WrittenOffProduct, IncomingProduct, ProductManager
+from my_model.model import Product, WrittenOffProduct, IncomingProduct, ProductManager
 
 class AddProductDialog(QtWidgets.QDialog):
     def __init__(self):
